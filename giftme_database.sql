@@ -442,9 +442,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `salt`, `name`, `joined`, `group`) VALUES
-(16, 'admin', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', '', 'Emily Symonds', '2015-04-21 16:23:40', 1),
-(19, 'daniela', '98f07870bf55072f84cbd928a6769f4d5d2595d63c2cddcf533d2ace545ca7ec', '', 'Daniela', '2015-05-04 05:08:42', 1),
-(20, 'sofia', '98f07870bf55072f84cbd928a6769f4d5d2595d63c2cddcf533d2ace545ca7ec', '', 'Sofia', '2015-05-04 05:10:34', 1);
+(16, 'admin', '8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918', '', 'Emily Symonds', '2015-04-21 16:23:40', 1);
 
 -- --------------------------------------------------------
 
