@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Contacto</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/form.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+<meta charset="UTF-8">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/blue.css" rel="stylesheet" type="text/css" media="all" />
+<!----font-Awesome----->
+   	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+<!----font-Awesome----->
+<!-- start plugins -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/TMForm.js"></script>
+  <link href="assets/css/style-responsive.css" rel="stylesheet" type="text/css">  
+
+
+</head>
+<body>
+<div id="site_wrap">
+<?php 
+ 		include('logocarrito.php');
+ 	?>
+<div id="container_slider">
+<?php //include('headerAbout.php') ?>
+	<div class="tituloContacto">
+		<img src="images/contacto.png" alt="" width="100%" align="none"/> 	
+	</div>
+	
+	<!-- SPAN MENU -->
+    <div class="span_menu">
+	    <div class="row">
+	    	<div class="row-same-height row-full-height">
+		      <div class="col-xs-1 col-xs-height col-full-height"><div class="item"><div class="content">
+		      	<a href="index.php"><img src="images/menu1.png" width="60%" title="Home"/></a>	
+			  </div></div></div>
+		      <div class="col-xs-1 col-xs-height col-full-height"><div class="item"><div class="content">
+			      <a href="about.php" ><img title="Quiénes somos" src="images/menu2.png" width="60%" /></a>
+		      </div></div></div>
+		      <div class="col-xs-1 col-xs-height col-full-height"><div class="item"><div class="content">
+			      <a href="regalos.php" ><img title="Regalos" src="images/menu3.png" width="55%"/></a>
+		      </div></div></div>
+		      <div class="col-xs-1 col-xs-height col-full-height"><div class="item"><div class="content">
+			     <img title="Contacto" src="images/menu4.png" width="60%"/>
+		      </div></div></div>
+	     </div>
+		</div>
+    </div>
+    
+     <div class="span_menu_fondos">
+	    <div class="row">
+	    	<div class="row-same-height row-full-height">
+		      <div class="col-xs-1 col-xs-height col-full-height"><div class="item"><div class="content">
+					<img src="images/fondomenu.png" width="100%"/>
+			  </div></div></div>
+		      <div class="col-xs-1 col-xs-height col-full-height"><div class="item"><div class="content">
+					<img src="images/fondomenu.png" width="100%"/>
+		      </div></div></div>
+		      <div class="col-xs-1 col-xs-height col-full-height"><div class="item"><div class="content">
+					<img src="images/fondomenu.png" width="100%"/>
+		      </div></div></div>
+		      <div class="col-xs-1 col-xs-height col-full-height"><div class="item"><div class="content">
+					<img src="images/fondomenu.png" width="100%"/>
+		      </div></div></div>
+	     </div>
+		</div>
+    </div>
+    <!-- /SPAN MENU -->
+
+	
+	<!-- FONDO -->
+	<div class="fondo_blancoRegalos">
+		<div class="contact">
+		
+		<div class="contact_main">
+				<div class="col-md-8">
+				  <div class="contact-form">
+					<form id="form">
+						<div class="success_wrapper">
+							<div class="success-message">Mensaje enviado correctamente!</div>
+						</div>
+						
+						<label class="name">
+							<input type="text" placeholder="Nombre:" data-constraints="@Required @JustLetters" />
+							<span class="empty-message">*Campo obligatorio.</span>
+							<span class="error-message">*No es un nombre válido.</span>
+						</label>
+						<label class="email">
+							<input type="text"  data-constraints="@Required @Email" placeholder="E-mail:"/>
+							<span class="empty-message">*Campo obligatorio.</span>
+							<span class="error-message">*No es un e-mail válido.</span>
+						</label>
+						<label class="phone">
+							<input type="text" data-constraints="@Required @JustNumbers" placeholder="Teléfono:" />
+							<span class="empty-message">*Campo obligatorio.</span>
+							<span class="error-message">*No es un teléfono válido.</span>
+						</label>
+						<label class="message">
+							<textarea data-constraints='@Required @Length(min=20,max=999999)' placeholder="Su mensaje:" ></textarea>
+							<span class="empty-message">*Campo obligatorio.</span>
+							<span class="error-message">*El mensaje es muy corto.</span>
+						</label>
+								<!--<a href="#" data-type="reset" class="btn">clear</a>
+								<a href="#" data-type="submit" class="btn">send</a>-->
+						<span><input type="submit" value="enviar" data-type="submit"></span>
+						<span><input type="borrar" value="borrar" data-type="reset"></span>
+
+					</form>
+				   </div>
+  			</div>		
+  			<div class="clearfix"></div>		
+		</div>
+		</div>
+	</div>
+
+
+
+<!-- FOOTER -->
+<div id="container_footer_contact">
+<div class="whitestrip"></div>
+
+<div class="footer_bg">
+<div class="container">
+	<div class="footer">
+		<div class="row">
+	    	<div class="row-same-height row-full-height">
+		      <div class="col-xs-1 col-xs-height col-full-height"><div class="item"><div class="content">
+
+				  <p>Seguinos en </p>
+					<p>FACEBOOK o INSTAGRAM</p>
+					
+					<div class="f_logo">
+						<div class="soc_icons">
+							<ul class="list-unstyled text-center">
+								<li><a href="https://www.facebook.com/giftme14"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="http://instagram.com/giftme14"><i class="fa fa-instagram"></i></a></li>
+							
+								
+							</ul>
+						</div>
+					</div>
+			  </div></div></div>
+		      <div class="col-xs-1 col-xs-height col-full-height"><div class="item"><div class="content">
+				  	<p>Llamanos</p>
+					<p>y hacé tu pedido YA</p>
+					<h5>&nbsp;</h5>
+					<p>091 210012</p>
+
+		      </div></div></div>
+		      <div class="col-xs-1 col-xs-height col-full-height"><div class="item"><div class="content">
+					<p>Escribinos</p>
+					<p>a</p>
+					<p style="font-size: 40px;"><a class="aMail" href="mailto:regalos@giftme.com.uy">regalos@giftme.com.uy</a></p>
+		      </div></div></div>
+	     </div>
+		</div>
+		
+		<div class="clearfix"></div>
+	</div>
+</div>
+</div>
+
+<div class="whitestrip"></div>
+<div class="footer1_bg"><!-- start footer1 -->
+	<div class="container">
+		<div class="footer1">
+			<div class="copy pull_left">
+				<p class="link"><span>&#169; 2015 by Gift Me &nbsp;</a></span></p>
+			</div>
+			
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- /FOOTER -->
+</div>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62651503-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

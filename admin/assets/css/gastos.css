@@ -1,0 +1,34 @@
+input {
+	font: inherit;
+}
+
+input[type="text"]{
+	padding: 5px 10px;
+}
+
+.tt-input:focus{
+	outline: none;
+	padding: 5px 10px;
+	border:1px solid #bbb;
+}
+
+.tt-dropdown-menu {
+	width: 100%;
+	border:1px solid #bbb;
+	border-top: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.tt-suggestion {
+	margin:5px 0
+}
+
+.tt-hint{
+	color:#bbb;
+}
+
+.tt-suggestion .tt-cursor{
+	background-color: #ddd;
+}
+
