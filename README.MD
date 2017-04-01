@@ -3,7 +3,7 @@ The website's frontend displays the different products the company offers. The c
 
 Configuration steps:
 
-1) Install the database on your local machine. It´s named giftme_database.sql and is contained in the mail folder.
+1) Install the database on your local machine. It´s named giftme_database.sql and is contained in the main folder.
 
 2) Configure your mysql username and password in the file in /giftme/admin/core/init.php on line 30 and 31. 
 
